@@ -11,6 +11,7 @@ public class FizzBuzz {
             result = "buzz";
             return result;
         }
-        return "fizz";
+        result = "fizz";
+        return result;
     }
 }

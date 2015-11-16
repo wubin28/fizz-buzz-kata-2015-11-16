@@ -5,5 +5,6 @@ public abstract class Handler {
         this.successor = successor;
     }
 
-    public abstract String handle(int number);
+    public String handle(int number) {
+    }
 }

@@ -1,5 +1,6 @@
 public class HandlerNormalNumber extends Handler {
     public HandlerNormalNumber(Handler successor){
+        super(successor);
     }
 
     @Override

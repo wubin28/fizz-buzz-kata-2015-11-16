@@ -1,8 +1,9 @@
-FizzBuzz.java:6: error: cannot find symbol
+FizzBuzz.java:6: error: constructor NormalNumberHandler in class NormalNumberHandler cannot be applied to given types;
         Handler normalNumberHandler = new NormalNumberHandler(null);
-                                          ^
-  symbol:   class NormalNumberHandler
-  location: class FizzBuzz
+                                      ^
+  required: no arguments
+  found: <null>
+  reason: actual and formal argument lists differ in length
 FizzBuzz.java:7: error: constructor BuzzHandler in class BuzzHandler cannot be applied to given types;
         Handler buzzHandler = new BuzzHandler(normalNumberHandler);
                               ^

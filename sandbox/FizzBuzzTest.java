@@ -9,14 +9,18 @@ public class FizzBuzzTest {
         assertEquals("1", fizzBuzz.print(1));
     }
 
-
     @Test
     public void should_print_fizz_if_the_number_is_3() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("buzz", fizzBuzz.print(3));
+        assertEquals("fizz", fizzBuzz.print(3));
     }
 
-    // TODO: should_print_fizz_if_the_number_is_6
+    @Test
+    public void should_print_fizz_if_the_number_is_6() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("fizz", fizzBuzz.print(6));
+    }
+
     // TODO: should_print_buzz_if_the_number_is_5
     // TODO: should_print_buzz_if_the_number_is_10
     // TODO: should_print_fizzbuzz_if_the_number_is_15

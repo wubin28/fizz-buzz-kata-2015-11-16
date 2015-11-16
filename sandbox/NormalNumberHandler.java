@@ -1,4 +1,4 @@
 public class NormalNumberHandler implements Handler {
-    public NormalNumberHandler(Handler handler) 
+    public NormalNumberHandler(Handler handler){
     }
 }

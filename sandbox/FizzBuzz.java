@@ -3,12 +3,10 @@ public class FizzBuzz {
 
     public String print(int number) {
         String result = null;
-        if (number == 1) {
-            result = "1";
+        if (number == 1 || number == 100) {
+            result = Integer.toString(number);
         } else if (number == 5 || number == 10) {
             result = "buzz";
-        } else if (number == 100) {
-            result = "100";
         } else {
             result = "fizz";
         }

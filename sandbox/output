@@ -1,10 +1,7 @@
-BuzzHandler.java:7: error: missing return statement
-    }
-    ^
 FizzHandler.java:1: error: FizzHandler is not abstract and does not override abstract method handle(int) in Handler
 public class FizzHandler implements Handler {
        ^
 NormalNumberHandler.java:1: error: NormalNumberHandler is not abstract and does not override abstract method handle(int) in Handler
 public class NormalNumberHandler implements Handler {
        ^
-3 errors
+2 errors

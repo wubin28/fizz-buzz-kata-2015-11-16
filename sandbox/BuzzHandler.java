@@ -4,5 +4,6 @@ public class BuzzHandler implements Handler {
 
     @Override
     public String handle(int number) {
+        return null;
     }
 }

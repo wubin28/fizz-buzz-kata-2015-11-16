@@ -5,6 +5,6 @@ public class HandlerNormalNumber extends Handler {
 
     @Override
     public String handle(int number) {
-        return null;
+        return Integer.toString(number);
     }
 }

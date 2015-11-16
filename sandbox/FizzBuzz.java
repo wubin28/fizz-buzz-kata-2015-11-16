@@ -1,10 +1,14 @@
 
 public class FizzBuzz {
 
+    public FizzBuzz() {
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+    }
+
     public String print(int number) {
         String result = null;
         
-        result = fizzBuzzHandler.handle(number);
+        result = this.fizzBuzzHandler.handle(number);
 
         if (number % 15 == 0) {
             result = "fizzbuzz";

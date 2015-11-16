@@ -1,6 +1,19 @@
-FizzBuzz.java:7: error: cannot find symbol
-        result = fizzBuzzHandler.handle(number);
-                 ^
-  symbol:   variable fizzBuzzHandler
+FizzBuzz.java:5: error: cannot find symbol
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+            ^
+  symbol: variable fizzBuzzHandler
+FizzBuzz.java:5: error: cannot find symbol
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+                                   ^
+  symbol:   class FizzBuzzHandler
   location: class FizzBuzz
-1 error
+FizzBuzz.java:5: error: cannot find symbol
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+                                                   ^
+  symbol:   variable fizzHandler
+  location: class FizzBuzz
+FizzBuzz.java:11: error: cannot find symbol
+        result = this.fizzBuzzHandler.handle(number);
+                     ^
+  symbol: variable fizzBuzzHandler
+4 errors

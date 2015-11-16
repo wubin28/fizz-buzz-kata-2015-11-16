@@ -1,4 +1,4 @@
-public class HandlerFizz implements Handler {
+public class HandlerFizz extends Handler {
     public HandlerFizz(Handler successor) {
     }
 

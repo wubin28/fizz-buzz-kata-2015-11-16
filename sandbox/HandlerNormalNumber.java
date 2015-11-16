@@ -1,4 +1,4 @@
-public class HandlerNormalNumber implements Handler {
+public class HandlerNormalNumber extends Handler {
     public HandlerNormalNumber(Handler successor){
     }
 

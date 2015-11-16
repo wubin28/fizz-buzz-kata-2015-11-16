@@ -5,6 +5,9 @@ public class HandlerBuzz extends Handler {
 
     @Override
     public String handle(int number) {
-        return null;
+        if (number % 5 == 0) {
+            return "buzz";
+        }
+        return successor.handle(number);
     }
 }

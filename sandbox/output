@@ -1,4 +1,6 @@
-NormalNumberHandler.java:1: error: NormalNumberHandler is not abstract and does not override abstract method handle(int) in Handler
-public class NormalNumberHandler implements Handler {
-       ^
-1 error
+JUnit version 4.11-SNAPSHOT-20120416-1530
+.....
+Time: 0.04
+
+OK (5 tests)
+

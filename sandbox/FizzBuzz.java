@@ -4,6 +4,8 @@ public class FizzBuzz {
     public String print(int number) {
         String result = null;
         
+        result = fizzBuzzHandler.handle(number);
+
         if (number % 15 == 0) {
             result = "fizzbuzz";
         } else if (number % 3 == 0) {

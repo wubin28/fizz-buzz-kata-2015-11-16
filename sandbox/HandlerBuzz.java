@@ -1,5 +1,6 @@
 public class HandlerBuzz extends Handler {
     public HandlerBuzz(Handler successor) {
+        super(successor);
     }
 
     @Override

@@ -1,10 +1,5 @@
 FizzBuzz.java:6: error: cannot find symbol
         Handler buzzHandler = new BuzzHandler(normalNumberHandler);
-                                  ^
-  symbol:   class BuzzHandler
-  location: class FizzBuzz
-FizzBuzz.java:6: error: cannot find symbol
-        Handler buzzHandler = new BuzzHandler(normalNumberHandler);
                                               ^
   symbol:   variable normalNumberHandler
   location: class FizzBuzz
@@ -25,4 +20,4 @@ FizzBuzz.java:14: error: cannot find symbol
                                      ^
   symbol:   method handle(int)
   location: variable fizzBuzzHandler of type Handler
-5 errors
+4 errors

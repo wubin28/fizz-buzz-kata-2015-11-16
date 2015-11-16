@@ -2,6 +2,6 @@
 public class FizzBuzz {
 
     public String print(int number) {
-        return "";
+        return "1";
     }
 }

@@ -1,2 +1,2 @@
-public class FizzBuzzHandler implement Handler {
+public class FizzBuzzHandler implements Handler {
 }

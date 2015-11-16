@@ -1,4 +1,11 @@
-FizzBuzzHandler.java:1: error: '{' expected
-public class FizzBuzzHandler implement Handler {
-                            ^
-1 error
+FizzBuzz.java:6: error: cannot find symbol
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+                                                   ^
+  symbol:   variable fizzHandler
+  location: class FizzBuzz
+FizzBuzz.java:12: error: cannot find symbol
+        result = this.fizzBuzzHandler.handle(number);
+                                     ^
+  symbol:   method handle(int)
+  location: variable fizzBuzzHandler of type Handler
+2 errors

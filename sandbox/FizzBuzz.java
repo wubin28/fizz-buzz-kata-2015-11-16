@@ -7,7 +7,6 @@ public class FizzBuzz {
             result = "1";
         } else if (number == 5 || number == 10) {
             result = "buzz";
-            return result;
         } else {
             result = "fizz";
         }

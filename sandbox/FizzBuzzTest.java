@@ -34,9 +34,9 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_print_100_if_the_number_is_100() {
+    public void should_print_98_if_the_number_is_98() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("100", fizzBuzz.print(100));
+        assertEquals("98", fizzBuzz.print(98));
     }
 
     // TODO: should_print_fizzbuzz_if_the_number_is_15

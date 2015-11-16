@@ -1,6 +1,6 @@
-FizzBuzzTest.java:8: error: cannot find symbol
+FizzBuzzTest.java:9: error: cannot find symbol
         assertEquals("1", fizzBuzz.print(1));
-                          ^
-  symbol:   variable fizzBuzz
-  location: class FizzBuzzTest
+                                  ^
+  symbol:   method print(int)
+  location: variable fizzBuzz of type FizzBuzz
 1 error

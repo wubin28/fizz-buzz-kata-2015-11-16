@@ -5,6 +5,7 @@ public class FizzBuzzTest {
 
     @Test
     public void should_print_1_if_the_number_is_1() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("1", fizzBuzz.print(1));
     }
 

@@ -1,5 +1,6 @@
 
 public class FizzBuzz {
+    private Handler fizzBuzzHandler;
 
     public FizzBuzz() {
         this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);

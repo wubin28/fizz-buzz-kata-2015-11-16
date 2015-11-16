@@ -33,7 +33,12 @@ public class FizzBuzzTest {
         assertEquals("buzz", fizzBuzz.print(10));
     }
 
+    @Test
+    public void should_print_100_if_the_number_is_100() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("100", fizzBuzz.print(100));
+    }
+
     // TODO: should_print_fizzbuzz_if_the_number_is_15
     // TODO: should_print_fizzbuzz_if_the_number_is_30
-    // TODO: should_print_100_if_the_number_is_100
 }

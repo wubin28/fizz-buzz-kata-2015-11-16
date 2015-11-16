@@ -1,18 +1,18 @@
 
 public class FizzBuzz {
-    private Handler fizzBuzzHandler;
+    private Handler handlerFizzBuzz;
 
     public FizzBuzz() {
-        Handler normalNumberHandler = new NormalNumberHandler(null);
-        Handler buzzHandler = new BuzzHandler(normalNumberHandler);
-        Handler fizzHandler = new FizzHandler(buzzHandler);
-        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+        Handler handlerNormalNumber = new HandlerNormalNumber(null);
+        Handler handlerBuzz = new HandlerBuzz(handlerNormalNumber);
+        Handler handlerFizz = new HandlerFizz(handlerBuzz);
+        this.handlerFizzBuzz = new HandlerFizzBuzz(handlerFizz);
     }
 
     public String print(int number) {
         String result = null;
         
-        result = this.fizzBuzzHandler.handle(number);
+        result = this.handlerFizzBuzz.handle(number);
 
         if (number % 15 == 0) {
             result = "fizzbuzz";

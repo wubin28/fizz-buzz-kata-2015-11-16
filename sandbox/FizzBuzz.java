@@ -1,7 +1,7 @@
 
 public class FizzBuzz {
 
-    public static int answer() {
-        return 42;
+    public String print(int number) {
+        return "";
     }
 }

@@ -1,5 +1,5 @@
 public abstract class Handler {
-    private Handler successor;
+    protected Handler successor;
 
     public Handler(Handler successor) {
         this.successor = successor;

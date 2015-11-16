@@ -1,5 +1,5 @@
-public class FizzBuzzHandler implements Handler {
-    public FizzBuzzHandler(Handler successor) {
+public class HandlerFizzBuzz extends Handler {
+    public HandlerFizzBuzz(Handler successor) {
         super(successor);
     }
     

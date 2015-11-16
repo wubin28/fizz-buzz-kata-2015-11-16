@@ -1,12 +1,45 @@
-FizzBuzzHandler.java:3: error: constructor Object in class Object cannot be applied to given types;
-        super(successor);
-        ^
-  required: no arguments
-  found: Handler
-  reason: actual and formal argument lists differ in length
-FizzBuzzHandler.java:12: error: cannot find symbol
+HandlerBuzz.java:1: error: interface expected here
+public class HandlerBuzz implements Handler {
+                                    ^
+HandlerFizz.java:1: error: interface expected here
+public class HandlerFizz implements Handler {
+                                    ^
+HandlerNormalNumber.java:1: error: interface expected here
+public class HandlerNormalNumber implements Handler {
+                                            ^
+FizzBuzz.java:6: error: cannot find symbol
+        Handler normalNumberHandler = new NormalNumberHandler(null);
+                                          ^
+  symbol:   class NormalNumberHandler
+  location: class FizzBuzz
+FizzBuzz.java:7: error: cannot find symbol
+        Handler buzzHandler = new BuzzHandler(normalNumberHandler);
+                                  ^
+  symbol:   class BuzzHandler
+  location: class FizzBuzz
+FizzBuzz.java:8: error: cannot find symbol
+        Handler fizzHandler = new FizzHandler(buzzHandler);
+                                  ^
+  symbol:   class FizzHandler
+  location: class FizzBuzz
+FizzBuzz.java:9: error: cannot find symbol
+        this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
+                                   ^
+  symbol:   class FizzBuzzHandler
+  location: class FizzBuzz
+Handler.java:1: error: Handler is not abstract and does not override abstract method handle(int) in Handler
+public class Handler {
+       ^
+HandlerBuzz.java:5: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+HandlerFizz.java:5: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+HandlerFizzBuzz.java:12: error: successor has private access in Handler
         return successor.handle(number);
                ^
-  symbol:   variable successor
-  location: class FizzBuzzHandler
-2 errors
+HandlerNormalNumber.java:5: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+12 errors

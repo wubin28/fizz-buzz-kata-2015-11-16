@@ -1,6 +1,12 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.04
-
-OK (5 tests)
-
+FizzBuzzHandler.java:3: error: constructor Object in class Object cannot be applied to given types;
+        super(successor);
+        ^
+  required: no arguments
+  found: Handler
+  reason: actual and formal argument lists differ in length
+FizzBuzzHandler.java:12: error: cannot find symbol
+        return successor.handle(number);
+               ^
+  symbol:   variable successor
+  location: class FizzBuzzHandler
+2 errors

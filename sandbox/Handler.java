@@ -1,4 +1,4 @@
-public class Handler {
+public abstract class Handler {
     private Handler successor;
 
     public Handler(Handler successor) {

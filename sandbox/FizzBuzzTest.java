@@ -16,21 +16,9 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void should_print_fizz_if_the_number_is_6() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("fizz", fizzBuzz.print(6));
-    }
-
-    @Test
     public void should_print_buzz_if_the_number_is_5() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("buzz", fizzBuzz.print(5));
-    }
-
-    @Test
-    public void should_print_buzz_if_the_number_is_10() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("buzz", fizzBuzz.print(10));
     }
 
     @Test
@@ -43,11 +31,5 @@ public class FizzBuzzTest {
     public void should_print_fizzbuzz_if_the_number_is_15() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("fizzbuzz", fizzBuzz.print(15));
-    }
-
-    @Test
-    public void should_print_fizzbuzz_if_the_number_is_30() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("fizzbuzz", fizzBuzz.print(30));
     }
 }

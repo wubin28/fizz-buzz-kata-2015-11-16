@@ -3,6 +3,7 @@ public class FizzBuzz {
     private Handler fizzBuzzHandler;
 
     public FizzBuzz() {
+        Handler fizzHandler = new FizzHandler(buzzHandler);
         this.fizzBuzzHandler = new FizzBuzzHandler(fizzHandler);
     }
 

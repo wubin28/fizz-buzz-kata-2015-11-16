@@ -27,5 +27,10 @@ public class FizzBuzzTest {
         assertEquals("fizzbuzz", fizzBuzz.print(15));
     }
 
-    // TODO: should_print_whizz_if_the_number_is_7()
+    @Test
+    public void should_print_whizz_if_the_number_is_7() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("whizz", fizzBuzz.print(7));
+    }
+
 }
